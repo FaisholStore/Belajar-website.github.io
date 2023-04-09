@@ -1,0 +1,320 @@
+/* Ganti warna background dan font family */
+body {
+   background-color: #f8f9fa;
+   font-family: 'Segoe UI', sans-serif;
+ }
+ 
+
+
+.container {
+   margin-top: 50px;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 20px;
+   box-shadow: 0 5px 4px rgba(0,0,0,0.1);
+   max-width: 80%;
+  
+ }
+ 
+ .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 -15px;
+ }
+ 
+ .col-md-12 {
+   flex: 0 0 100%;
+   max-width: 100%;
+   padding: 0 15px;
+ }
+ 
+ .m-4 {
+   margin: 1.5rem;
+ }
+ 
+ .p-4 {
+   padding: 1.5rem;
+ }
+ 
+ .img-fluid {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .rounded-circle {
+   border-radius: 50%;
+ }
+ 
+ .mt-2 {
+   margin-top: 0.5rem;
+ }
+ 
+ .lead {
+   font-size: 1.25rem;
+   font-weight: 300;
+ }
+ 
+ hr {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   border: 0;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ h1 {
+   font-size: 2.5rem;
+   font-weight: 500;
+ }
+ 
+ h2 {
+   font-size: 2rem;
+   font-weight: 500;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+ }
+ 
+ ul {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   list-style: none;
+   padding-left: 0;
+ }
+ 
+ li {
+   margin-bottom: 0.5rem;
+ }
+ 
+ .list-group {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+ }
+ 
+ .list-group-item {
+   border: none;
+   padding: 0.5rem 0;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+ }
+ 
+ .list-group-numbered {
+   list-style-type: none;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   padding-left: 0;
+ }
+ 
+ .list-group-numbered li {
+   display: flex;
+   margin-bottom: 0.5rem;
+   position: relative;
+ }
+ 
+ .list-group-numbered li::before {
+   content: counter(item) ". ";
+   counter-increment: item;
+   display: block;
+   margin-right: 0.5rem;
+   font-weight: 600;
+ }
+ 
+ section {
+   margin-top: 2rem;
+ }
+ 
+ table {
+   width: 100%;
+   margin-bottom: 1rem;
+   background-color: transparent;
+   border-collapse: collapse;
+ }
+ 
+ th,
+ td {
+   padding: 0.75rem;
+   vertical-align: top;
+   border-top: 1px solid #dee2e6;
+ }
+ 
+ th {
+   font-weight: bold;
+ }
+ 
+ tbody tr:nth-of-type(odd) {
+   background-color: rgba(0, 0, 0, 0.05);
+ }
+ 
+ th[scope="row"] {
+   vertical-align: middle;
+ }
+ 
+ .GridStyle {
+   border: 1px solid #98bf21;
+   background-color: #ffffff;
+   font-family: Arial;
+   font-size: 12px;
+   text-align: left;
+ }
+ 
+ .GridStyle th {
+   background-color: #A7C942;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 4px 7px;
+   border-left: 1px solid #A7C942;
+ }
+ 
+ .GridStyle td {
+   color: #666666;
+   border-left: 1px solid #FFFFFF;
+   font-size: 14px;
+   padding: 10px;
+   text-align: center;
+ }
+ 
+ .GridStyle tr:nth-child(even) {
+   background: #D0E4F5;
+ }
+ 
+ .GridStyle tr:nth-child(odd) {
+   background: #FFFFFF;
+ }
+ 
+ .GridStyle th {
+   background-color: #A9D0F5;
+   color: #FFFFFF;
+   font-size: 14px;
+   font-weight: bold;
+   padding: 10px;
+   text-align: center;
+   text-shadow: 1px 1px 1px #000;
+ }
+ 
+ 
+ /* CSS untuk Tabel */
+table {
+   border-collapse: collapse;
+   width: 80%;
+   margin-bottom: 30px;
+   font-size: 14px;
+ }
+ 
+ th, td {
+   padding: 10px;
+   text-align: left;
+   border: 1px solid #ddd;
+ }
+ 
+ th {
+   background-color: #333;
+   color: #fff;
+   font-weight: bold;
+ }
+ 
+ tr.NormalBG {
+   background-color: #f2f2f2;
+ }
+ 
+ tr.AlternateBG {
+   background-color: #fff;
+ }
+ 
+ /* CSS untuk Judul Tabel */
+ h3.text-center {
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+ }
+ 
+ /* CSS untuk Media Query */
+ @media only screen and (max-width: 767px) {
+   table {
+     font-size: 12px;
+   }
+   th, td {
+     padding: 5px;
+   }
+   h3.text-center {
+     font-size: 20px;
+   }
+ }
+ 
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+   table {
+     font-size: 13px;
+   }
+   h3.text-center {
+     font-size: 22px;
+   }
+ }
+ 
+
+ /* Untuk ukuran layar dengan lebar kurang dari 576px */
+@media (max-width: 575px) {
+   /* Memperkecil ukuran font */
+   h1, h2, h3, h4, h5, h6 {
+     font-size: 1.5rem;
+   }
+ 
+   /* Mengubah tampilan tabel agar lebih mudah dibaca */
+   table {
+     font-size: 0.9rem;
+   }
+ 
+   /* Mengubah ukuran gambar profil */
+   .rounded-circle {
+     width: 200px;
+     height: 200px;
+   }
+ }
+ 
+ /* Untuk ukuran layar dengan lebar antara 576px dan 768px */
+ @media (min-width: 576px) and (max-width: 767px) {
+   /* Memperkecil ukuran font */
+   h1, h2, h3, h4, h5, h6 {
+     font-size: 1.8rem;
+   }
+ 
+   /* Mengubah tampilan tabel agar lebih mudah dibaca */
+   table {
+     font-size: 1rem;
+   }
+ 
+   /* Mengubah ukuran gambar profil */
+   .rounded-circle {
+     width: 250px;
+     height: 250px;
+   }
+ }
+ 
+ /* Untuk ukuran layar dengan lebar antara 768px dan 992px */
+ @media (min-width: 768px) and (max-width: 991px) {
+   /* Mengubah tampilan tabel agar lebih mudah dibaca */
+   table {
+     font-size: 1.1rem;
+   }
+ 
+   /* Mengubah ukuran gambar profil */
+   .rounded-circle {
+     width: 300px;
+     height: 300px;
+   }
+ }
+ 
+ /* Untuk ukuran layar dengan lebar antara 992px dan 1200px */
+ @media (min-width: 992px) and (max-width: 1199px) {
+   /* Mengubah ukuran gambar profil */
+   .rounded-circle {
+     width: 350px;
+     height: 350px;
+   }
+ }
+ 
+ /* Untuk ukuran layar dengan lebar lebih dari 1200px */
+ @media (min-width: 1200px) {
+   /* Mengubah ukuran gambar profil */
+   .rounded-circle {
+     width: 400px;
+     height: 400px;
+   }
+ }
+ 
